@@ -1,0 +1,76 @@
+
+
+body{
+margin: 0;
+padding: 0;
+background-image: url('kk.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: comic sans ms;
+}
+
+form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background:rgba(0,0,0,.4);
+	padding: 50px;
+	border-radius: 4px;
+}
+
+form label{
+	display: block;
+	color: white;
+	font-size: 17px;
+	margin-bottom: 8px;
+	cursor: pointer;
+	text-transform: capitalize;
+	font-weight: 200;
+}
+
+ .a{
+	font-size: 17px;
+	padding: 7px;
+	width:100%;
+	border:1px solid #fff000;
+	color:#fff;
+	display: block;
+	background:transparent;
+
+}
+
+.buttons input {
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	background: orange;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 25px;
+	transition: .4s;
+}
+
+.buttons input:hover{
+	background: #cc0000;}
+
+
+form p{
+	color:#fff;
+	font-size: 17px;
+	font-weight: 200;
+}
+
+form p a{
+	color: #fff000;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	cursor: pointer;
+	font-weight: 300;
+}
